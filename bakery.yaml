@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [Marvel-Regular.ttf.ttx, Marvel-Italic.ttf.ttx, Marvel-BoldItalic.ttf.ttx,
+  Marvel-Bold.ttf.ttx, src/Marvel-Regular.otf.ttx, src/Marvel-Italic.otf.ttx, src/Marvel-BoldItalic.otf.ttx,
+  src/Marvel-Bold.otf.ttx, src/Marvel-Regular-TTF.sfd, src/Marvel-Italic-TTF.sfd,
+  src/Marvel-BoldItalic-TTF.sfd, src/Marvel-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
